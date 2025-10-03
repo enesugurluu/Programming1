@@ -18,12 +18,5 @@ int main() {
     printf("Operation of multiply result is %d",multiply);
 
 
-
-
-
-
-
-
-
     return 0;
 }
