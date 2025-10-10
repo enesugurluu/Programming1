@@ -8,5 +8,9 @@ int main() {
 
     int rectangle_area = height * width;
     printf("Area: %d\n", rectangle_area);
+
+
+    int perimeter = 2 * (height + width);
+    printf("Perimeter: %d\n", perimeter);
     return 0;
 }
