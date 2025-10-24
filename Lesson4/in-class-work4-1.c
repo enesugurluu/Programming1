@@ -1,4 +1,8 @@
-#include <stdio.h>
+#include <stdio.h>;
+
+
+
+
 
 int main(void) {
      /* Compute class average: read count, read grades, compute average */
@@ -21,11 +25,11 @@ int main(void) {
           printf("Please, enter the student grade value..:");
           scanf("%d", &currentStudentGrade);
 
-          /* Note: condition below is always false; likely should use || */
-          if (currentStudentGrade > 100 && currentStudentGrade < 0) {
-               printf("Please, enter the valid grade value..:");
-               scanf("%d", &currentStudentGrade);
-          }
+            /* Validate grade: reprompt if value is outside the 0-100 range */
+            if (currentStudentGrade > 100 || currentStudentGrade < 0) {
+                  printf("Please, enter the valid grade value..:");
+                  scanf("%d", &currentStudentGrade);
+            }
 
           classAverage = classAverage + currentStudentGrade;
           counter++;
