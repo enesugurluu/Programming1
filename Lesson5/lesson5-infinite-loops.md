@@ -4,7 +4,11 @@
 
 ### Infinite Loops
 
+An action in the while statement’s body must eventually cause the condition to become false; otherwise, the loop will never terminate a logic error called an infinite loop
+
 An **infinite loop** is a loop that never terminates on its own. It continues executing until the program is stopped or a `break` statement is encountered.
+
+![alt text](image.png)
 
 **Use cases:**
 - Programs that run continuously (servers, game loops)
