@@ -6,21 +6,21 @@ int main(int argc, char const *argv[])
     int max;
     printf("Enter the max number: ");
     scanf("%d", &max);
-    int counter = 1;
+    int counter_row = 1;
     
     
-    while (counter <= max)
+    while (counter_row <= max)
     {
         
         int starter = 1;
-        while (starter <= counter)
+        while (starter <= counter_row)
         {
             printf("*");
             starter++;
         }
 
         printf("\n");
-        counter++;
+        counter_row++;
     }
     
     return 0;
