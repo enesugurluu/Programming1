@@ -1,8 +1,4 @@
-#include <stdio.h>;
-
-
-
-
+#include <stdio.h>
 
 int main(void) {
      /* Compute class average: read count, read grades, compute average */

@@ -2,12 +2,12 @@
 
 int main() {
     int entered_value;
-    printf("Enter a possitive number for fuctorial  : ");
+    printf("Enter a possitive number for factorial  : ");
     scanf("%d", &entered_value);
 
     while(entered_value < 0)
     {
-        printf("Please enter valid second for fuctorial  : ");
+        printf("Please enter valid second for factorial  : ");
         scanf("%d", &entered_value);
     }
 
