@@ -26,6 +26,4 @@ int main(int argc, char const *argv[])
     printf("Average grade is %f" , sum / SIZE1);
 
     return 0;
-
-    
 }
